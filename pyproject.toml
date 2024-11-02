@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "my-surpryse"
+version = "0.1.0"
+description = ""
+authors = ["Andrew <balshowandrew@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+surprise = "^0.1"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+lab = "^8.3"
+tqdm = "^4.66.6"
+numpy = "1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
